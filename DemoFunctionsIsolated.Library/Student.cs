@@ -7,5 +7,5 @@ public class Student
     public required string Email { get; set; }
     public required string Matricola { get; set; }
     public DateTime RegistrationDate { get; set; }
-
+    public int Age { get; set; }
 }

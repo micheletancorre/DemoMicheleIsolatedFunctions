@@ -37,7 +37,8 @@ namespace DemoFunctionsIsolated
                 Name = "Mario Verdi",
                 Email = "rossi@gmail.com",
                 Matricola = "789",
-                RegistrationDate = clock.GetNow()
+                RegistrationDate = clock.GetNow(),
+                Age = 23
             };
             return JsonSerializer.Serialize(nuovoStudente);
         }
